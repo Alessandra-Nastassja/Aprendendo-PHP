@@ -1,0 +1,79 @@
+PHP
+
+VARIÁVEL
+
+Number - $idade = 22;
+String - &nome = "Alessandra Nastassja";
+
+echo "Nome:" .$nome. "Idade:" .$idade;
+
+*Conversão de variável
+
+$result = "2";
+$result = $result +1;
+$result = $result +1.5;
+
+ou
+
+$result = 11;
+$result (double) $result;
+
+echo "Resultado: " .$result;
+
+var_dump($result); //Imprimi a variável e seu tipo de dado
+________________________________________________________________________
+
+OPERADORES MATEMÁTICOS
+
+Soma +
+$a + $b;
+
+Subtração -
+$a - $b;
+
+Multiplicação *
+$a * $b;
+
+Divisão /
+$a / $b;
+
+Módulo %
+$a % $b;
+
+* Número real
+echo "Resultado: " .number_format($resultado,2,",",".")
+
+_____________________________________________________________________________
+
+OPERADORES ATRIBUIÇÃO
+
+= atribuição simples
++= atribuição adição
+-= atribuição subtração
+*= atribuição multiplicação
+/= atricuição divisão
+%= atribuição modulo
+.= atribuição concatenação
+
+______________________________________________________________________________
+
+OPERADORES DE INCREMENTO E DECREMENTO
+
+$a++ - Pós-incremento
+*primeiro ele mostra o valor da variável,depois ele incrementa
+
+++$a - Pré incremento
+*primeiro incrementa depois imprimi
+
+________________________________________________________________________________
+
+OPERADOERES DE COMPARAÇÃO
+
+== Igual
+!= Diferente
+< Menor
+> Maior
+<= Menor igual
+>= Maior igual
+
+
